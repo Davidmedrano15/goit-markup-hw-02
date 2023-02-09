@@ -10,7 +10,7 @@
       font-family: 'Roboto', sans-serif;
       color: var(--nav-list);
       font-size: 14px;
-      Line height:26px;
+      Line height: 26;
     }
     
   
@@ -70,7 +70,7 @@
       font-weight: 400;
   }
   h1{
-      color: :var(--foot) !important;
+      color: var(--foot) !important;
       font-size: 44px;
       font-weight: 900;
   }
