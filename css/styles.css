@@ -4,6 +4,7 @@
   --list-contac: #757575;
   --foot: #ffffff;
   --fondo: #2f303a;
+  --fondo2: #f5f4fa;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -37,7 +38,6 @@ body {
 .main .main-item .btn-item:focus {
   color: var(--foot);
 }
-
 .list-item {
   color: var(--list-contac);
   font-weight: 500;
@@ -51,12 +51,14 @@ body {
   font-weight: 700;
 }
 .main-item {
-  background-color: #2f303a;
+  background-color: var(--fondo);
 }
 .foot {
   background-color: var(--fondo);
 }
-
+.list-foot {
+  font-style: normal;
+}
 .list-foot-item {
   color: var(--foot);
   font-weight: 400;
@@ -74,10 +76,10 @@ body {
   font-weight: 400;
   cursor: pointer;
   font-size: 16px;
-  background-color: #f5f4fa;
+  background-color: var(--fondo2);
 }
 .gallery-info {
-  background: #f5f4fa;
+  background: var(--fondo2);
 }
 
 p {
