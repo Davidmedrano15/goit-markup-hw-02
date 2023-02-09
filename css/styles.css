@@ -1,85 +1,100 @@
-
 :root {
-    --header-color: #2196f3;
-    --nav-list: #212121;
-    --list-contac: #757575;
-    --foot: #ffffff;
-  }
-  body {
-      font-family: 'Raleway', sans-serif;
-      font-family: 'Roboto', sans-serif;
-      color: var(--nav-list);
-      font-size: 14px;
-      Line height: 26;
-    }
-    
-  
-  .nav .nav-list .nav-list-item:hover,
-  .nav .nav-list .nav-list-item:focus {
-    color: var(--header-color);
-  }
-  .list .list-item:hover,
-  .list .list-item:focus {
-    color: var(--header-color);
-  }
-  .foot .list-foot .list-foot-item:hover,
-  .foot .list-foot .list-foot-item:focus {
-    color: var(--header-color);
-  }
-  .foot .list-foot .foot-item:hover,
-  .foot .list-foot .foot-item:focus {
-    color: var(--header-color);
-  }
-  .main .button .btn:hover,
-  .main .button .btn:focus {
-    color: var(--foot);
-  }
-  
-  .list-item {
-    color: var(--list-contac);
-    font-weight: 500;
-  }
-  .nav-list-item {
-    color: var(--nav-list);
-    font-weight: 500;
-  }
-  .logo {
-    color: var(--header-color);
-    font-weight: 700;
-  }
-  
-  
-  .list-foot-item {
-    color: var(--foot) !important;
-    font-weight: 400;
-  }
-  .foot-item {
-    color: var(--list-contac);
-    font-weight: 400;
-  }
-  
-  .btn {
-    color: var(--nav-list);
-    font-weight: 400;
-    cursor:pointer;
-    font-size: 16px;
-  }
-  
-  p{
-      color:var(--list-contac) !important;
-      font-weight: 400;
-  }
-  h1{
-      color: var(--foot) !important;
-      font-size: 44px;
-      font-weight: 900;
-  }
-  h2{
-      font-size: 36px;
-      color: var(--nav-list);
-      font-weight: 700;
-  }
-  h3{
-      color: var(--nav-list);
-      font-weight: 500;
-  }
+  --header-color: #2196f3;
+  --nav-list: #212121;
+  --list-contac: #757575;
+  --foot: #ffffff;
+  --fondo: #2f303a;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--nav-list);
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.nav .nav-list .nav-list-item:hover,
+.nav .nav-list .nav-list-item:focus {
+  color: var(--header-color);
+}
+.list .list-item:hover,
+.list .list-item:focus {
+  color: var(--header-color);
+}
+.foot .list-foot .list-foot-item:hover,
+.foot .list-foot .list-foot-item:focus {
+  color: var(--header-color);
+}
+.foot .list-foot .foot-item:hover,
+.foot .list-foot .foot-item:focus {
+  color: var(--header-color);
+}
+.main .button-menu .btn:hover,
+.main .button-menu .btn:focus {
+  color: var(--foot);
+}
+.main .main-item .btn-item:hover,
+.main .main-item .btn-item:focus {
+  color: var(--foot);
+}
+
+.list-item {
+  color: var(--list-contac);
+  font-weight: 500;
+}
+.nav-list-item {
+  color: var(--nav-list);
+  font-weight: 500;
+}
+.logo {
+  color: var(--header-color);
+  font-weight: 700;
+}
+.main-item {
+  background-color: #2f303a;
+}
+.foot {
+  background-color: var(--fondo);
+}
+
+.list-foot-item {
+  color: var(--foot);
+  font-weight: 400;
+}
+.foot-item {
+  color: var(--list-contac);
+  font-weight: 400;
+}
+.btn-item {
+  background-color: var(--header-color);
+}
+
+.btn {
+  color: var(--nav-list);
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f5f4fa;
+}
+.gallery-info {
+  background: #f5f4fa;
+}
+
+p {
+  color: var(--list-contac);
+  font-weight: 400;
+}
+h1 {
+  color: var(--foot);
+  font-size: 44px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 36px;
+  color: var(--nav-list);
+  font-weight: 700;
+}
+h3 {
+  color: var(--nav-list);
+  font-weight: 500;
+}
