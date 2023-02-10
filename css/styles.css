@@ -1,5 +1,5 @@
 :root {
-  --header-color: #2196f3;
+  --brand-color: #2196f3;
   --nav-list: #212121;
   --list-contac: #757575;
   --foot: #ffffff;
@@ -11,24 +11,54 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--nav-list);
   font-size: 14px;
-  line-height: 2.5;
+  line-height: 1;
+}
+p {
+  color: var(--list-contac);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+}
+h1 {
+  color: var(--foot);
+  font-size: 44px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 36px;
+  color: var(--nav-list);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+h3 {
+  color: var(--nav-list);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
 
 .nav .nav-list .nav-list-item:hover,
 .nav .nav-list .nav-list-item:focus {
-  color: var(--header-color);
+  color: var(--brand-color);
 }
 .list .list-item:hover,
 .list .list-item:focus {
-  color: var(--header-color);
+  color: var(--brand-color);
 }
 .foot .list-foot .list-foot-item:hover,
 .foot .list-foot .list-foot-item:focus {
-  color: var(--header-color);
+  color: var(--brand-color);
 }
 .foot .list-foot .foot-item:hover,
 .foot .list-foot .foot-item:focus {
-  color: var(--header-color);
+  color: var(--brand-color);
 }
 .main .button-menu .btn:hover,
 .main .button-menu .btn:focus {
@@ -42,19 +72,33 @@ body {
   color: var(--list-contac);
   font-weight: 500;
 }
+.nav-list {
+  font-size: 14px;
+  line-height: 1.1;
+}
 .nav-list-item {
   color: var(--nav-list);
   font-weight: 500;
 }
+.list {
+  font-size: 14px;
+  line-height: 1.1;
+}
 .logo {
-  color: var(--header-color);
+  color: var(--brand-color);
   font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
 }
 .main-item {
   background-color: var(--fondo);
+  font-size: 44px;
+  line-height: 1.36;
 }
 .foot {
   background-color: var(--fondo);
+  font-size: 14px;
+  line-height: 1.7;
 }
 .list-foot {
   font-style: normal;
@@ -68,7 +112,15 @@ body {
   font-weight: 400;
 }
 .btn-item {
-  background-color: var(--header-color);
+  background-color: var(--brand-color);
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif;
+}
+.button-menu {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn {
@@ -81,22 +133,10 @@ body {
 .gallery-info {
   background: var(--fondo2);
 }
-
-p {
-  color: var(--list-contac);
-  font-weight: 400;
+.active {
+  color: var(--brand-color);
 }
-h1 {
+.active-button {
   color: var(--foot);
-  font-size: 44px;
-  font-weight: 900;
-}
-h2 {
-  font-size: 36px;
-  color: var(--nav-list);
-  font-weight: 700;
-}
-h3 {
-  color: var(--nav-list);
-  font-weight: 500;
+  background-color: var(--brand-color);
 }
